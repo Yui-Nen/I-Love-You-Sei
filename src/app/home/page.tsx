@@ -50,8 +50,8 @@ const HomePage = () => {
     };
 
     return (
-        <div className='flex justify-center items-center h-screen'>
-            <div className='bg-white p-5 rounded-md max-w-[1000px] w-full border-[1px] border-[#8464b8] shadow-lg sm:items-start items-center sm:justify-between flex flex-col-reverse sm:flex-row'>
+        <div className='flex justify-center items-center h-full sm:h-screen'>
+            <div className='bg-white p-5 rounded-md max-w-[1000px] my-10 sm:my-0 w-full border-[1px] border-[#8464b8] shadow-lg sm:items-start items-center sm:justify-between flex flex-col-reverse sm:flex-row'>
                 <div className='flex flex-col gap-5 bg-white sm:w-2/3'>
                     <h1 className='bg-white'>Hi Baby,</h1>
 
